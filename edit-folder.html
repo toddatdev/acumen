@@ -1,0 +1,1014 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Edit Folder</title>
+
+    <!-- Custom fonts for this template-->
+    <!-- <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet"> -->
+        <!-- <link href="https://fonts.cdnfonts.com/css/gotham" rel="stylesheet"> -->
+    <!-- Custom styles for this template-->
+    <link href="css/sb-admin-2.css" rel="stylesheet">
+    <link href="css/innerstyling.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="jquery-3.6.3.min.js"></script>
+</head>
+
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    
+<div id="wrapper" >
+    <!-- Sidebar -->
+    <div class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+        <ul class="ps-0 sidebar-ul" id="sidebartoggleid">
+
+
+            <!-- Sidebar Toggler (Sidebar) -->
+            <div class="text-start  d-inline pt-2 ">
+                <button class="bg-transparent border-0 pt-3 mb-4" id="sidebarToggle"></button>
+            </div>
+
+            <!-- Divider -->
+
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <!-- Nav Item - Dashboard -->
+                <li class="nav-item bg-light ">
+                    <a class="nav-link text-dark py-1 mb-2 d-block" href="">
+                        <!-- <i class="fas fa-fw fa-tachometer-alt"></i> -->
+                        <img class="" width="20px" src="./images/menu-icon/home.svg"/>
+                        <span class="sidebar-menu-links fw-700 sidebar-home">Home</span></a>
+
+                </li>
+
+                <!-- Nav Item - Pages Collapse Menu -->
+                <li class="nav-item ">
+                    <!-- <a class=" nav-link collapsed " href="#" data-bs-toggle="collapse" data-bs-target="#modulestoggle" aria-expanded="false" aria-controls="modulestoggle">
+                        <img class="" width="20px" src="./images/module.svg" />
+                        <span class="text-white sidebar-menu-links">Modules</span>
+                        <img class=" float-end sidebar-toggle-arrow"  src="./images/dropdown-arrow.svg" />
+
+                    </a>
+                    <div id="modulestoggle" class="accordion-collapse collapse"  aria-labelledby="headingone" data-bs-parent="#sidebartoggleid">
+                        <div class=" py-2  rounded">
+                            <a class="nav-link collapsed " href="#" data-bs-toggle="collapse" data-bs-target="#modulesmembershiptoggle" aria-expanded="false" aria-controls="modulesmembershiptoggle">
+                                <span class="text-white sidebar-menu-links">Membership</span>
+                                <img class=" float-end sidebar-toggle-arrow"  src="./images/dropdown-arrow.svg" />
+                            </a>
+                            <div id="modulesmembershiptoggle" class="accordion-collapse collapse"  aria-labelledby="headingone" data-bs-parent="#sidebartoggleid">
+
+                            </div>
+
+                        </div>
+                    </div> -->
+
+
+                    <div class=" ">
+                        <p class="accordion-header " id="flush-headingOne1">
+                            <button class="nav-link accordion-button  collapsed bg-transparent px-3 toggle-menu"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#modulestoggle"
+                                    aria-expanded="false" aria-controls="modulestoggle">
+                                <img class="" width="19px" src="./images/menu-icon/modules.svg"/>
+                                <span class="text-white sidebar-menu-links"> Modules</span>
+                            </button>
+                        </p>
+                        <div id="modulestoggle" class="accordion-collapse collapse m-0 py-0"
+                             aria-labelledby="flush-headingOne1" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body ps-0 py-0" id="accordionFlushExample1">
+
+                                <div class=" ">
+                                    <p class="accordion-header " id="membership-headingOne">
+                                        <button class="nav-link accordion-button  collapsed bg-transparent mx-0 py-1"
+                                                type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#membershiptoggle" aria-expanded="false"
+                                                aria-controls="membershiptoggle">
+                                            <span class="text-white sidebar-menu-links ps-0"> Membership</span>
+                                        </button>
+                                    </p>
+                                    <div id="membershiptoggle" class="accordion-collapse collapse"
+                                         aria-labelledby="membership-headingOne"
+                                         data-bs-parent="#accordionFlushExample1">
+                                        <div class=" text-white">
+                                            <ul class="membership-bullets list-unstyled ps-2">
+                                                <li class="mb-2"><i class="fa fa-circle fs-7 me-2 "></i>Intro to
+                                                    Membership
+                                                </li>
+                                                <li class="mb-2"><i class="fa fa-circle fs-7 me-2 "></i>Current
+                                                    Membership
+                                                </li>
+                                                <li class="mb-2"><i class="fa fa-circle fs-7 me-2 "></i>Member Type
+                                                    Analysis
+                                                </li>
+                                                <li class="mb-2"><i class="fa fa-circle fs-7 me-2 "></i>Membership
+                                                    Lifecycle
+                                                </li>
+                                                <li class="mb-2"><i class="fa fa-circle fs-7 me-2 "></i>Renewal Tracking
+                                                </li>
+                                                <li class="mb-2" title="Individual Demographics"><i
+                                                        class="fa fa-circle fs-7 me-2 "></i>Individual Demogra...
+                                                </li>
+                                                <li class="mb-2"><i class="fa fa-circle fs-7 me-2 "></i>Individual
+                                                    Geography
+                                                </li>
+                                                <li class="mb-2" title="Individual Member Profile"><i
+                                                        class="fa fa-circle fs-7 me-2 "></i>Individual Member...
+                                                </li>
+                                                <li class="mb-2"><i class="fa fa-circle fs-7 me-2 "></i>Certification
+                                                    Analysis
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class=" ">
+                                    <p class="accordion-header " id="sales-headingOne">
+                                        <button class="nav-link accordion-button  collapsed bg-transparent mx-0 py-1"
+                                                type="button" data-bs-toggle="collapse" data-bs-target="#salestoggle"
+                                                aria-expanded="false" aria-controls="membershiptoggle">
+                                            <span class="text-white sidebar-menu-links ps-0"> Sales</span>
+                                        </button>
+                                    </p>
+                                    <div id="salestoggle" class="accordion-collapse collapse"
+                                         aria-labelledby="sales-headingOne" data-bs-parent="#accordionFlushExample1">
+                                        <div class="text-white">
+                                            <ul class="membership-bullets list-unstyled ps-2 ">
+                                                <li class="mb-2"><i class="fa fa-circle fs-7 me-2 "></i>Introduction to
+                                                    Sales
+                                                </li>
+                                                <li class="mb-2"><i class="fa fa-circle fs-7 me-2 "></i>Sales Overview
+                                                </li>
+                                                <li class="mb-2" title="Product Sales Analysis"><i
+                                                        class="fa fa-circle fs-7 me-2 "></i>Product Sales...
+                                                </li>
+                                                <li class="mb-2"><i class="fa fa-circle fs-7 me-2 "></i>Product
+                                                    Breakdown
+                                                </li>
+                                                <li class="mb-2" title="Geography Breakdown"><i
+                                                        class="fa fa-circle fs-7 me-2 "></i>Geography Brea...
+                                                </li>
+                                                <li class="mb-2" title="Individual Demographics"><i
+                                                        class="fa fa-circle fs-7 me-2 "></i>Individual Demogra...
+                                                </li>
+                                                <li class="mb-2"><i class="fa fa-circle fs-7 me-2 "></i>Top Customer
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class=" ">
+                                    <p class="accordion-header " id="events-headingOne">
+                                        <button class="nav-link accordion-button  collapsed bg-transparent mx-0 py-1"
+                                                type="button" data-bs-toggle="collapse" data-bs-target="#eventstoggle"
+                                                aria-expanded="false" aria-controls="membershiptoggle">
+                                            <span class="text-white sidebar-menu-links ps-0"> Events</span>
+                                        </button>
+                                    </p>
+                                    <div id="eventstoggle" class="accordion-collapse collapse"
+                                         aria-labelledby="events-headingOne" data-bs-parent="#accordionFlushExample1">
+                                        <div class="text-white">
+                                            <ul class="membership-bullets list-unstyled ps-2 ">
+                                                <li class="mb-2"><i class="fa fa-circle fs-7 me-2 "></i>Introduction to
+                                                    Events
+                                                </li>
+                                                <li class="mb-2"><i class="fa fa-circle fs-7 me-2 "></i>Events Overview
+                                                </li>
+                                                <li class="mb-2" title="Add-On Registration Analysis "><i
+                                                        class="fa fa-circle fs-7 me-2 "></i>Add-On Registration...
+                                                </li>
+                                                <li class="mb-2"><i class="fa fa-circle fs-7 me-2 "></i>Event Breakdown
+                                                </li>
+                                                <li class="mb-2"><i class="fa fa-circle fs-7 me-2 "></i>Travel Distance
+                                                </li>
+                                                <li class="mb-2"><i class="fa fa-circle fs-7 me-2 "></i>Individual
+                                                    Breakdown
+                                                </li>
+                                                <li class="mb-2" title="Organization Breakdown"><i
+                                                        class="fa fa-circle fs-7 me-2 "></i>Organization Break...
+                                                </li>
+                                                <li class="mb-2" title="Geography Breakdown"><i
+                                                        class="fa fa-circle fs-7 me-2 "></i>Geography Break...
+                                                </li>
+                                                <li class="mb-2"><i class="fa fa-circle fs-7 me-2 "></i>Event History
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class=" ">
+                                    <p class="accordion-header " id="engagement-headingOne">
+                                        <button class="nav-link accordion-button  collapsed bg-transparent mx-0 py-1"
+                                                type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#engagementtoggle" aria-expanded="false"
+                                                aria-controls="membershiptoggle">
+                                            <span class="text-white sidebar-menu-links ps-0"> Engagement</span>
+                                        </button>
+                                        </h2>
+                                    <div id="engagementtoggle" class="accordion-collapse collapse"
+                                         aria-labelledby="engagement-headingOne"
+                                         data-bs-parent="#accordionFlushExample1">
+                                        <div class="text-white">
+                                            <ul class="membership-bullets list-unstyled ps-2 ">
+                                                <li class="mb-2" title="Introduction to Engagement"><i
+                                                        class="fa fa-circle fs-7 me-2 "></i>Introduction to Enga...
+                                                </li>
+                                                <li class="mb-2" title="Individual Engagement Overview"><i
+                                                        class="fa fa-circle fs-7 me-2 "></i>Individual Enga...
+                                                </li>
+                                                <li class="mb-2" title="Individual Activity Analysis"><i
+                                                        class="fa fa-circle fs-7 me-2 "></i>Individual Activity...
+                                                </li>
+                                                <li class="mb-2" title="Individual Spend Analysis"><i
+                                                        class="fa fa-circle fs-7 me-2 "></i>Individual Spend...
+                                                </li>
+                                                <li class="mb-2"><i class="fa fa-circle fs-7 me-2 "></i>Roll-up Analy...
+                                                </li>
+                                                <li class="mb-2"><i class="fa fa-circle fs-7 me-2 "></i>Individual
+                                                    Break...
+                                                </li>
+                                                <li class="mb-2" title="Organization Breakdown"><i
+                                                        class="fa fa-circle fs-7 me-2 "></i>Organization Break...
+                                                </li>
+                                                <li class="mb-2" title="Geography Breakdown"><i
+                                                        class="fa fa-circle fs-7 me-2 "></i>Geography Break...
+                                                </li>
+                                                <li class="mb-2"><i class="fa fa-circle fs-7 me-2 "></i>Top N</li>
+                                                <li class="mb-2"><i class="fa fa-circle fs-7 me-2 "></i>Individual
+                                                    Profile
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class=" ">
+                                    <p class="accordion-header " id="email-headingOne">
+                                        <button class="nav-link accordion-button  collapsed bg-transparent mx-0 py-1"
+                                                type="button" data-bs-toggle="collapse" data-bs-target="#emailtoggle"
+                                                aria-expanded="false" aria-controls="membershiptoggle">
+                                            <span class="text-white sidebar-menu-links ps-0"> Email</span>
+                                        </button>
+                                        </h2>
+                                    <div id="emailtoggle" class="accordion-collapse collapse"
+                                         aria-labelledby="email-headingOne" data-bs-parent="#accordionFlushExample1">
+                                        <div class="text-white">
+                                            <ul class="membership-bullets list-unstyled ps-2 ">
+                                                <li class="mb-2"><i class="fa fa-circle fs-7 me-2 "></i>Introduction to
+                                                    Email
+                                                </li>
+                                                <li class="mb-2"><i class="fa fa-circle fs-7 me-2 "></i>Email Overview
+                                                </li>
+                                                <li class="mb-2"><i class="fa fa-circle fs-7 me-2 "></i>Email Activity
+                                                    Trends
+                                                </li>
+                                                <li class="mb-2"><i class="fa fa-circle fs-7 me-2 "></i>Message Analysis
+                                                </li>
+                                                <li class="mb-2"><i class="fa fa-circle fs-7 me-2 "></i>Message Profile
+                                                </li>
+                                                <li class="mb-2"><i class="fa fa-circle fs-7 me-2 "></i>Send Detail</li>
+                                                <li class="mb-2"><i class="fa fa-circle fs-7 me-2 "></i>Click Detail
+                                                </li>
+                                                <li class="mb-2"><i class="fa fa-circle fs-7 me-2 "></i>Open Detail</li>
+                                                <li class="mb-2"><i class="fa fa-circle fs-7 me-2 "></i>Bounce Detail
+                                                </li>
+                                                <li class="mb-2"><i class="fa fa-circle fs-7 me-2 "></i>Demographics
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class=" ">
+                                    <p class="accordion-header " id="community-headingOne">
+                                        <button class="nav-link accordion-button  collapsed bg-transparent mx-0 py-1"
+                                                type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#communitytoggle" aria-expanded="false"
+                                                aria-controls="membershiptoggle">
+                                            <span class="text-white sidebar-menu-links ps-0">Community</span>
+                                        </button>
+                                        </h2>
+                                    <div id="communitytoggle" class="accordion-collapse collapse"
+                                         aria-labelledby="community-headingOne"
+                                         data-bs-parent="#accordionFlushExample1">
+                                        <div class="text-white">
+                                            <ul class="membership-bullets list-unstyled ps-2 ">
+                                                <li class="mb-2" title="Introduction to Community"><i
+                                                        class="fa fa-circle fs-7 me-2 "></i>Introduction to Com...
+                                                </li>
+                                                <li class="mb-2"><i class="fa fa-circle fs-7 me-2 "></i>Community
+                                                    Overview
+                                                </li>
+
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </li>
+
+                <!-- Nav Item - Utilities Collapse Menu -->
+                <li class="nav-item">
+
+                    <div class=" ">
+                        <p class="accordion-header " id="flush-headingOne1">
+                            <button class="nav-link accordion-button  collapsed bg-transparent px-3 toggle-menu "
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#dashboardtoggle"
+                                    aria-expanded="false" aria-controls="dashboardtoggle">
+                                <!-- <img class="" width="15px" src="./images/dashboard.png" /> -->
+                                <img class="" width="19px" src="./images/menu-icon/dashboard.svg"/>
+                                <span class="text-white sidebar-menu-links"> Dashboard</span>
+                            </button>
+                        </p>
+                        <div id="dashboardtoggle" class="accordion-collapse collapse m-0 py-0"
+                             aria-labelledby="flush-headingOne1" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body ps-0 py-0" id="accordionFlushExample1">
+
+                                <div class="text-white">
+                                    <ul class="membership-bullets list-unstyled ps-4">
+                                        <li class="mb-2"><i class="fa fa-circle fs-7 me-2 "></i>Pulse Dashboard</li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </li>
+
+
+                <!-- Nav Item - Pages Collapse Menu -->
+                <li class="nav-item">
+
+
+                    <div class=" ">
+                        <p class="accordion-header " id="flush-headingOne1">
+                            <button class="nav-link accordion-button  collapsed bg-transparent px-3 toggle-menu"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#myacumentoggle"
+                                    aria-expanded="false" aria-controls="myacumentoggle">
+                                <!-- <img class="" width="15px" src="./images/dashboard.png" /> -->
+                                <img class="" width="19px" src="./images/menu-icon/dashboard2.svg"/>
+                                <span class="text-white sidebar-menu-links"> My Acumen</span>
+                            </button>
+                        </p>
+                        <div id="myacumentoggle" class="accordion-collapse collapse m-0 py-0"
+                             aria-labelledby="flush-headingOne1" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body ps-0 py-0" id="accordionFlushExample1">
+
+                                <div class=" text-white">
+                                    <ul class="membership-bullets list-unstyled ps-4">
+                                        <li class="mb-2"><i class="fa fa-circle fs-7 me-2 "></i>Reports (List)</li>
+                                        <li class="mb-2"><i class="fa fa-circle fs-7 me-2 "></i>Manage Users</li>
+                                        <li class="mb-2"><i class="fa fa-circle fs-7 me-2 "></i>Manage Reports</li>
+                                        <li class="mb-2"><i class="fa fa-circle fs-7 me-2 "></i>Create Folder</li>
+                                        <li class="mb-2"><i class="fa fa-circle fs-7 me-2 "></i>Edit (Admin)</li>
+                                        <li class="mb-2"><i class="fa fa-circle fs-7 me-2 "></i>Build a Report</li>
+
+
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </li>
+
+                <li class="nav-item">
+
+
+                    <div class=" ">
+                        <p class="accordion-header " id="flush-headingOne1">
+                            <button class="nav-link accordion-button  collapsed bg-transparent px-3 toggle-menu"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#validationreportstoggle"
+                                    aria-expanded="false" aria-controls="validationreportstoggle">
+                                <img class="" width="19px" src="./images/menu-icon/validation.svg"/>
+                                <span class="text-white sidebar-menu-links">Validation Reports</span>
+                            </button>
+                        </p>
+                        <div id="validationreportstoggle" class="accordion-collapse collapse m-0 py-0"
+                             aria-labelledby="flush-headingOne1" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body ps-0 py-0" id="accordionFlushExample1">
+
+                                <div class=" text-white">
+                                    <ul class="membership-bullets list-unstyled ps-4">
+                                        <li class="mb-2"><i class="fa fa-circle fs-7 me-2 "></i>Membership Validation
+                                        </li>
+                                        <li class="mb-2"><i class="fa fa-circle fs-7 me-2 "></i>Sales Validation</li>
+                                        <li class="mb-2"><i class="fa fa-circle fs-7 me-2 "></i>Events Validation</li>
+                                        <li class="mb-2"><i class="fa fa-circle fs-7 me-2 "></i>Community Validation
+                                        </li>
+                                        <li class="mb-2"><i class="fa fa-circle fs-7 me-2 "></i>Email Validation</li>
+                                        <li class="mb-2"><i class="fa fa-circle fs-7 me-2 "></i>Engagement Validation
+                                        </li>
+
+
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </li>
+
+                <li class="nav-item">
+
+
+                    <div class=" ">
+                        <p class="accordion-header " id="flush-headingOne1">
+                            <button class="nav-link accordion-button  collapsed bg-transparent px-3 toggle-menu"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#acumenconnectiontoggle"
+                                    aria-expanded="false" aria-controls="acumenconnectiontoggle">
+                                <img class="" width="20px" src="./images/menu-icon/acumen-connector.svg"/>
+                                <span class="text-white sidebar-menu-links"> Acumen Connector</span>
+                            </button>
+                        </p>
+                        <div id="acumenconnectiontoggle" class="accordion-collapse collapse m-0 py-0"
+                             aria-labelledby="flush-headingOne1" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body ps-0 py-0" id="accordionFlushExample1">
+                                <div class=" text-white">
+                                    <ul class="membership-bullets list-unstyled ps-4">
+                                        <li class="mb-2"><i class="fa fa-circle fs-7 me-2 "></i>Create Connectors</li>
+                                        <li class="mb-2"><i class="fa fa-circle fs-7 me-2 "></i>Manage Connectors</li>
+                                    </ul>
+                                </div>
+                                <div class=" ">
+                                    <p class="accordion-header " id="membership-headingOne">
+                                        <button class="nav-link accordion-button  collapsed bg-transparent mx-0 py-1"
+                                                type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#managelisttoggle" aria-expanded="false"
+                                                aria-controls="managelisttoggle">
+                                            <span class="text-white sidebar-menu-links ps-0"> Manage Lists</span>
+                                        </button>
+                                    </p>
+                                    <div id="managelisttoggle" class="accordion-collapse collapse"
+                                         aria-labelledby="membership-headingOne"
+                                         data-bs-parent="#accordionFlushExample1">
+                                        <div class=" text-white">
+                                            <ul class="membership-bullets list-unstyled ps-2">
+                                                <li class="mb-2"><i class="fa fa-circle fs-7 me-2 "></i>Create Lists
+                                                </li>
+                                                <li class="mb-2"><i class="fa fa-circle fs-7 me-2 "></i>Edit Lists</li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </li>
+
+                <li class="nav-item">
+
+                    <div class=" ">
+                        <p class="accordion-header " id="flush-headingOne1">
+                            <button class="nav-link accordion-button  collapsed bg-transparent px-3 toggle-menu"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#admintoggle"
+                                    aria-expanded="false" aria-controls="admintoggle">
+                                <img class="" width="20px" src="./images/menu-icon/admin.svg"/>
+                                <span class="text-white sidebar-menu-links"> Admin</span>
+                            </button>
+                        </p>
+                        <div id="admintoggle" class="accordion-collapse collapse m-0 py-0"
+                             aria-labelledby="flush-headingOne1" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body ps-0 py-0" id="accordionFlushExample1">
+
+                                <div class=" ">
+                                    <p class="accordion-header " id="membership-headingOne">
+                                        <button class="nav-link accordion-button  collapsed bg-transparent mx-0 py-1"
+                                                type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#usermanagementtoggle" aria-expanded="false"
+                                                aria-controls="usermanagementtoggle">
+                                            <span class="text-white sidebar-menu-links ps-0"> User Management</span>
+                                        </button>
+                                    </p>
+                                    <div id="usermanagementtoggle" class="accordion-collapse collapse"
+                                         aria-labelledby="membership-headingOne"
+                                         data-bs-parent="#accordionFlushExample1">
+                                        <div class=" text-white">
+                                            <ul class="membership-bullets list-unstyled ps-2 mb-3">
+                                                <li class="mb-2"><i class="fa fa-circle fs-7 me-2 "></i>Manage Users
+                                                </li>
+                                                <li class="mb-2"><i class="fa fa-circle fs-7 me-2 "></i>Manage Roles
+                                                </li>
+                                                <li class="mb-2"><i class="fa fa-circle fs-7 me-2 "></i>Create/Roles
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class=" text-white">
+                                    <ul class="membership-bullets list-unstyled ps-4">
+                                        <li class="mb-2"><i class="fa fa-circle fs-7 me-2 "></i>Access Management</li>
+                                        <li class="mb-2"><i class="fa fa-circle fs-7 me-2 "></i>Utilization Report</li>
+                                        <li class="mb-2"><i class="fa fa-circle fs-7 me-2 "></i>Service Dashboard</li>
+                                        <li class="mb-2"><i class="fa fa-circle fs-7 me-2 "></i>Manage Some</li>
+                                        <li class="mb-2"><i class="fa fa-circle fs-7 me-2 "></i>Manage Goals and KPIs
+                                        </li>
+                                        <li class="mb-2"><i class="fa fa-circle fs-7 me-2 "></i>Branding</li>
+
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </li>
+
+                <li class="nav-item">
+
+
+                    <div class=" ">
+                        <p class="accordion-header " id="flush-headingOne1">
+                            <button class="nav-link accordion-button  collapsed bg-transparent px-3 toggle-menu"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#resourcestoggle"
+                                    aria-expanded="false" aria-controls="resourcestoggle">
+                                <img class="" width="20px" src="./images/menu-icon/resources.svg"/>
+                                <span class="text-white sidebar-menu-links"> Resources</span>
+                            </button>
+                        </p>
+                        <div id="resourcestoggle" class="accordion-collapse collapse m-0 py-0"
+                             aria-labelledby="flush-headingOne1" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body ps-0 py-0" id="accordionFlushExample1">
+                                <div class=" text-white">
+                                    <ul class="membership-bullets list-unstyled ps-4">
+                                        <li class="mb-2"><i class="fa fa-circle fs-7 me-2 "></i>Acumen Academy</li>
+                                        <li class="mb-2"><i class="fa fa-circle fs-7 me-2 "></i>Service Desk</li>
+                                        <li class="mb-2"><i class="fa fa-circle fs-7 me-2 "></i>Acumen Community</li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </li>
+            </div>
+            <!-- Nav Item - Charts -->
+
+            <!-- Sidebar - Brand -->
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+                <div class="sidebar-brand-icon rotate-n-15">
+                    <!-- <i class="fas fa-laugh-wink"></i> -->
+                </div>
+                <div class="sidebar-brand-text mx-3">
+                    <img width="170px" src="./images/logo.png">
+                </div>
+            </a>
+
+        </ul>
+    </div>
+    <!-- End of Sidebar -->
+
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column " style="flex-grow: 1;" >
+            <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top border border-bottom-1 pe-2 pe-lg-4 position-fixed w-100 d-flex justify-content-end top-0 ">
+
+                <!-- Sidebar Toggle (Topbar) -->
+                <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle me-auto me-auto ms-3">
+                    <i class="fa fa-bars"></i>
+                </button>
+
+           
+
+                <!-- Topbar Navbar -->
+                <ul class="navbar-nav ms-auto ">
+
+                    <!-- Nav Item - Search Dropdown (Visible Only XS) -->
+                    <li class="nav-item dropdown no-arrow d-none">
+                        <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <!-- Dropdown - Messages -->
+                        <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in"
+                            aria-labelledby="searchDropdown">
+                            <form class="form-inline me-auto w-100 navbar-search">
+                                <div class="input-group">
+                                    <input type="text" class="form-control bg-light border-0 small"
+                                        placeholder="Search for..." aria-label="Search"
+                                        aria-describedby="basic-addon2">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-primary" type="button">
+                                            <i class="fas fa-search fa-sm"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </li>
+
+                    <!-- Nav Item - Alerts -->
+                    <li class="nav-item dropdown no-arrow ">
+                        <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          
+                            <i class="bi bi-bell  search-icon-light "></i>
+                            <!-- Counter - Alerts -->
+                            <span class="badge badge-success badge-counter p-0" style="width: 6px; height: 6px;left: 18px;">.</span>
+                        </a>
+                        <!-- Dropdown - Alerts -->
+                       
+                    </li>
+
+                    <!-- Nav Item - Messages -->
+                    <li class="nav-item dropdown no-arrow  d-block">
+                        <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-search  search-icon-light "></i>
+                        </a>
+                        <!-- Dropdown - Messages -->
+                        <div class="dropdown-menu  p-3 shadow ms-auto"
+                            aria-labelledby="searchDropdown" style="width: 300px;">
+                            <form class="form-inline me-auto w-100 navbar-search">
+                                <div class="input-group">
+                                    <input type="text" class="form-control bg-light  small"
+                                        placeholder="Search for..." aria-label="Search"
+                                        aria-describedby="basic-addon2">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-primary" type="button">
+                                            <i class="fas fa-search fa-sm "></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </li>
+
+                    <div class="topbar-divider d-none d-sm-block"></div>
+
+                    <!-- Nav Item - User Information -->
+                    <li class="nav-item dropdown no-arrow">
+                        <a class="nav-link dropdown-toggle " href="#" id="userDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span>
+
+                            </span>
+                            <img width="50px"  class=" rounded-circle"
+                                src="./images/john.png">
+                                
+                                <span class="me-2 d-none d-lg-inline ms-2 john-profile textdark fw-600 ">John Smith<br> <span class="me-2 fw-light">User</span></span>
+                                <!-- <img width="12px"  class="ms-1" src="./images/downblackarrow.png"> -->
+                                <i class="bi bi-chevron-down text-dark fa-sm ms-2 ms-lg-0"></i>
+                                
+                        </a>
+                        <!-- Dropdown - User Information -->
+                        <div class="dropdown-menu  shadow profile-info"
+                             aria-labelledby="userDropdown my-0">
+                            <a class="dropdown-item py-2" href="#">
+                                Profile
+                            </a>
+                            <div class="dropdown-divider my-0"></div>
+                            <a class="dropdown-item py-2" href="#">
+                                Customization
+                            </a>
+                            <div class="dropdown-divider my-0"></div>
+                            <a class="dropdown-item py-2" href="#" data-toggle="modal" data-target="#logoutModal">
+                                Logout
+                            </a>
+
+                        </div>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+            
+            <!-- Main Content -->
+            <div class="px-4 pb-5 h-100  overflow-auto content-inner" id="content "  >
+
+
+
+
+                <div class=" bg-white padding-three-buttons">
+                    <div class=" mb-3  ">
+                        <p class="big-heading ">Edit Folder</p>
+                        <p class="text-p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                    </div>
+                    <div class="d-flex flex-column justify-content-between  h-75" >
+                    <div class="">
+                    <div class=" d-flex flex-column  justify-content-between" >
+                            <div class=" w-100">
+                                <form class="">
+                                    <div class="row justify-content-center mt-2">
+
+                                        <div class="col-md-6 col-lg-5 mb-4 ">
+                           
+                                            <div class="form-group ">
+                                                <label class=" pb-2" for="inputtext1">Folder Name</label>
+                                                <input type="text" class="form-control form-control-lg pt-1" id="inputtext1" placeholder="My Acumen Sales">
+                                          </div>
+    
+                                       </div>
+
+                                    
+                                       <div class="col-md-6 col-lg-5 mb-4 ">
+                           
+                                        <div class="form-group ">
+                                            <label class=" pb-2" for="inputtext1">Sort Order</label>
+                                            <input type="text" class="form-control form-control-lg pt-1" id="inputtext1" placeholder="10">
+                                      </div>
+
+                                   </div>
+                                   
+                                </div>
+                                </form>
+                            </div>
+                     </div>
+                     <div class="row d-flex justify-content-center py-4">
+                        <div class="col-lg-5">
+                         
+                        <h5 class="medium-heading mb-0">Visualizations</h5>
+
+                        </div>
+                        <div class="col-5">
+                            
+                        </div>
+                     </div>
+                     <div class="row justify-content-center pb-5 visualization-form">
+                        <div class="col-md-6 col-lg-5">
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked1" checked>
+                                <label class="form-check-label ps-1" for="flexCheckChecked1">
+                                    Advocacy
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked2" >
+                                <label class="form-check-label ps-1" for="flexCheckChecked2">
+                                    Sales by week & day - FY2019 vs FY 2020
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked3" >
+                                <label class="form-check-label ps-1" for="flexCheckChecked3">
+                                    Sales Scatter
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked4">
+                                <label class="form-check-label ps-1" for="flexCheckChecked4">
+                                    COVID-19 US Tracking
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked5" checked>
+                                <label class="form-check-label ps-1" for="flexCheckChecked5">
+                                    Session Data Draft
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked6">
+                                <label class="form-check-label ps-1" for="flexCheckChecked6">
+                                    Piexcity NCUA
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked7">
+                                <label class="form-check-label ps-1" for="flexCheckChecked7">
+                                    Demo
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked8">
+                                <label class="form-check-label ps-1" for="flexCheckChecked8">
+                                    Webinar Polls PBI
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked9">
+                                <label class="form-check-label ps-1" for="flexCheckChecked9">
+                                    Gregs Pie Chart
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked10">
+                                <label class="form-check-label ps-1" for="flexCheckChecked10">
+                                    Dataset Acumen - LMS
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked11">
+                                <label class="form-check-label ps-1" for="flexCheckChecked11">
+                                    Community
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked12" checked>
+                                <label class="form-check-label ps-1" for="flexCheckChecked12">
+                                    Dataset Acumen - MM Registration-Sales
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked13">
+                                <label class="form-check-label ps-1" for="flexCheckChecked13">
+                                    BoD Draft
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked14">
+                                <label class="form-check-label ps-1" for="flexCheckChecked14">
+                                    Merritt Sales Report
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked15">
+                                <label class="form-check-label ps-1" for="flexCheckChecked15">
+                                    iMIS Bl Report
+                                </label>
+                            </div>
+    
+                        </div>
+                        <div class="col-md-6 col-lg-5">
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault16" >
+                                <label class="form-check-label ps-1" for="flexCheckDefault16">
+                                    Membership
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault17" >
+                                <label class="form-check-label ps-1" for="flexCheckDefault17">
+                                    Retention Influencers
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked18" >
+                                <label class="form-check-label ps-1" for="flexCheckChecked18">
+                                    Executive Dashboard Draft
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked19">
+                                <label class="form-check-label ps-1" for="flexCheckChecked19">
+                                    Events (1)
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked20" checked>
+                                <label class="form-check-label ps-1" for="flexCheckChecked20">
+                                    Dataset Acemen - Chapter Membership
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked21">
+                                <label class="form-check-label ps-1" for="flexCheckChecked21">
+                                    Chapters
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked22">
+                                <label class="form-check-label ps-1" for="flexCheckChecked22">
+                                    Retention & Pricing Impact Analysis
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked23">
+                                <label class="form-check-label ps-1" for="flexCheckChecked23">
+                                    Customer Data Survey
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked24">
+                                <label class="form-check-label ps-1" for="flexCheckChecked24">
+                                    Sales
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked25">
+                                <label class="form-check-label ps-1" for="flexCheckChecked25">
+                                    Learning
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked26">
+                                <label class="form-check-label ps-1" for="flexCheckChecked26">
+                                    Pluse Report
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked27">
+                                <label class="form-check-label ps-1" for="flexCheckChecked27">
+                                    Measures and Forecast
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked28">
+                                <label class="form-check-label ps-1" for="flexCheckChecked28">
+                                    Executive Dashboard_CASE
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked29">
+                                <label class="form-check-label ps-1" for="flexCheckChecked29">
+                                    Events Eblast_Annual
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked30">
+                                <label class="form-check-label ps-1" for="flexCheckChecked30">
+                                    Public Data For Member Orgs
+                                </label>
+                            </div>
+    
+                        </div>
+                     </div> 
+    
+                   
+                </div>
+                    <!-- <div class="align-bottom ">
+                        <div class="d-grid  gap-3 d-md-flex justify-content-md-end align-bottom pe-4" >
+                            <button class="btn btn-secondary bottom-btn-width" type="button">Cancel</button>
+                            <button class="btn btn-danger bottom-btn-width" type="button">Delete</button>
+                            <button class="btn btn-primary bottom-btn-width" type="button">Save</button>
+                        </div>
+                    </div> -->
+                </div>
+    
+                </div>
+    
+
+                <!-- </div> -->
+                <!-- /.container-fluid -->
+
+            </div>
+
+
+            <!-- End of Main Content -->
+
+            <!-- Footer -->
+            <footer class=" bg-white px-4">
+                <div class="container-fluid my-auto ">
+                    <div class="copyright text-end my-auto position-fixed">
+<!--                        <span>Copyright &copy; Your Website 2021</span>-->
+<div class="d-grid  gap-3 d-sm-flex justify-content-sm-end align-bottom px-4 py-3  mt-5 position-fixed bottom-0  bg-white w-100 bottom-btn-div" >
+
+                          
+                            <a href="#" class="btn btnsecondary bottom-btn-width text-decoration-none" >Cancel</a>
+                            <a href="#" class="btn btndelete bottom-btn-width text-decoration-none" >Delete</a>
+                            <a href="#" class="btn btnprimary bottom-btn-width text-decoration-none " >Save</a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- End of Footer -->
+
+        </div>
+    
+        <!-- End of Content Wrapper -->
+</div>
+    
+  
+
+    <!-- Custom scripts for all pages-->
+    <script src="./js/sb-admin-2.js"></script>
+
+  
+
+    <!-- Page level custom scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>
